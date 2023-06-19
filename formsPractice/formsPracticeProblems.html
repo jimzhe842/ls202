@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <dl>
+        <dt><label for="first_name">First Name</label></dt>
+        <dd>
+          <input type="text" name="first_name" id="first_name" required />
+        </dd>
+  
+        <dt><label for="last_name">Last Name</label></dt>
+        <dd><input type="text" name="last_name" id="last_name" required /></dd>
+  
+        <dt><label for="email">Email Address</label></dt>
+        <dd>
+          <input type="email" name="email" id="email" required
+                 autocomplete="off" autocorrect="off" autocapitalize="none" />
+        </dd>
+  
+        <dt><label for="phone">Phone Number</label></dt>
+        <dd><input type="tel" name="phone" id="phone" placeholder="###-###-####" required /></dd>
+
+        <dt><label for="phone_type">Phone Type</label></dt>
+        <dd>
+          <select name="phone_type" id="phone_type">
+            <option value="home" selected>Home</option>
+            <option value="business">Business</option>
+            <option value="mobile">Mobile</option>
+          </select>
+        </dd>
+
+        <dt><label for="message">Message</label></dt>
+        <dd><textarea id="message" name="message" rows="6" cols="80"
+                      placeholder="Type your message here."></textarea></dd>
+  
+      <input type="submit" value="Send" />
+    </fieldset>
+  </form>
+
+  <form action="#" method="get">
+    <label for="search">Search for</label>
+    <input type="text" id="search" name="search">
+    
+    <label>
+      <input type="radio" name="filter" id="tv" required>
+      TV
+    </label>
+    <label>
+      <input type="radio" name="filter" id="movies" required>
+      Movies
+    </label>
+    <label>
+      <input type="radio" name="filter" id="music" required>
+      Music
+    </label>
+    <button name="search">Search</button>
+  </form>
+
+  <form action="#" method="post">
+    <dl>
+      <dt>
+        <label for="movie">Movie</label>
+      </dt>
+      <dd>
+        <select name="movie" id="movie" size="4">
+          <option value="looper">Looper</option>
+          <option value="frozen">Frozen</option>
+          <option value="tommy_boy">Tommy Boy</option>
+          <option value="alien" selected>Alien</option>
+        </select>
+      </dd>
+
+      <dt>
+        <label for="rating">Rating</label>
+      </dt>
+      <dd>
+        <input type="number" id="rating" name="rating" min="1" max="5">
+      </dd>
+      <div>
+        <label>
+          <input type="checkbox" id="favorites" checked>
+          Add to my favorites
+        </label>
+      </div>
+      <input type="submit" value="Rate movie">
+    </dl>
+  </form>
+
+  <form action="#" method="get">
+    <fieldset>
+      <h1>Categories</h1>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" id="core">
+            Core
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" id="plugins_and_libraries">
+            Plugins and Libraries
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" id="conventions">
+            Conventions
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" id="reviews">
+            Reviews
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" id="opinion">
+            Opinions
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" id="people">
+            People
+          </label>
+        </li>
+      </ul>
+      HTML, CSS, Javascript, Ruby, Rails, Python, Django
+      <h1>Tags</h1>
+      <ul>
+        <li>
+          <input type="checkbox" name="HTML">
+          HTML
+        </li>
+        <li>
+          <input type="checkbox" name="CSS">
+          CSS
+        </li>
+        <li>
+          <input type="checkbox" name="Javascript">
+          Javascript
+        </li>
+        <li>
+          <input type="checkbox" name="Ruby">
+          Ruby
+        </li>
+        <li>
+          <input type="checkbox" name="Rails">
+          Rails
+        </li>
+        <li>
+          <input type="checkbox" name="Python">
+          Python
+        </li>
+        <li>
+          <input type="checkbox" name="Django">
+          Django
+        </li>
+      </ul>
+      
+    </fieldset>
+  </form>
+
+  <form action="#" method="get">
+    <fieldset>
+      <dl>
+        <dt>
+          <label for="categories">Categories</label>
+        </dt>
+        <dd>
+          <select name="categories" id="categories" size="3">
+            <option value="core">Core</option>
+            <option value="plugins_and_libraries">Plugins and Libraries</option>
+            <option value="conventions">Conventions</option>
+            <option value="reviews">Reviews</option>
+            <option value="opinion">Opinion</option>
+            <option value="people">People</option>
+          </select>
+        </dd>
+
+        <dt>
+          <label for="tags">Tags</label>
+        </dt>
+        <dd>Tags: HTML, CSS, Javascript, Ruby, Rails, Python, Django
+          <select name="tags" id="tags" size="3">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+            <option value="ruby">Ruby</option>
+            <option value="rails">Rails</option>
+            <option value="python">Python</option>
+            <option value="django">Django</option>
+          </select>
+          
+        </dd>
+      </dl>
+
+      <input type="reset">
+      
+    </fieldset>
+  </form>
+</body>
+</html>

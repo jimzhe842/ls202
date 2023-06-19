@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+article {
+  width: 60%;
+  height: 100%;
+  border: 1px solid grey;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 30px;
+}
+
+h1, h2 {
+  margin-top: 2rem;
+  color: rgb(200, 20, 50);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1rem;
+  color: rgb(200, 20, 50);
+}
+
+p {
+  color: grey;
+  margin-bottom: 2rem;
+  line-height: 1.4rem;
+}
+
+div.dashed {
+  border: 2px dashed #555;
+  margin: 45px;
+  padding: 30px;
+  width: 650px;
+}
+
+.cf::before,
+.cf::after {
+  content: "";
+  display: block;
+}
+
+.cf::after {
+  clear: both;
+}
+
+#div1 a {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+#div2 a {
+  color: darkslategrey;
+  text-decoration: none;
+  margin: 1rem;
+}
+#div3 a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: green;
+}
+
+#div4 a {
+  background-color: green;
+  border: 3px solid darkgreen;
+  color: white;
+  float: left;
+  margin: 15px;
+  padding: 25px;
+  text-align: center;
+  width: 120px;
+}
+
+div#no-width-or-height {
+  background-color: blue;
+  color: white;
+}
+
+#div5 {
+  height: 60px;
+  padding: 20px;
+  margin: 20px;
+  background-color: green;
+  color: white;
+}
+
+#div6 {
+  width: 60px;
+  background-color: salmon;
+  color: white;
+}
+
+#div7 {
+  width: 180px;
+  height: 120px;
+  background-color: pink;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+#box-1 {
+  float: left;
+  background-color: rgb(50,160,250);
+  color: white;
+  border: 1px solid red;
+}
+
+#box-2 {
+  float: right;
+  background-color: rgb(250,100,100);
+  color: white;
+  border: 1px solid red;
+}
+
+#big-box-1 {
+  background-color: tomato;
+  color: white;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 40%;
+}
+
+#big-box-2 {
+  background-color: dodgerblue;
+  color: white;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 50%;
+}
+
+#div8 a {
+  display: block;
+  background-color: dodgerblue;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+  margin: 0.5rem 0;
+}
+
+#navdiv {
+  text-align: center;
+}
+
+#navdiv a {
+  display: inline-block;
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  width: 20%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+#dashed {
+  border-top: 2px dashed #555;
+}
+
+.centered {
+  text-align: center;
+}
+
+#fl-box-1 {
+  background-color: tomato;
+  color: white;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+#fl-box-2 {
+  background-color: dodgerblue;
+  color: white;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+
+#fl-box-3 {
+  background-color: seagreen;
+  color: white;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+
+#positioning-list {
+  color: grey;
+  font-size:15px;
+}
+
+#positioning-list li {
+  margin: 5px 0;
+}
+
+#fixed-positioning {
+  position: fixed;
+  background-color: dodgerblue;
+  color: white;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 5px;
+  bottom: 50px;
+  left: 50px;
+  padding: 30px 50px;
+}
+
+#relative-positioning {
+  position: relative;
+  background-color: tomato;
+  color: white;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 5px;
+  top: 50px;
+  right: 50px;
+}
+
+section {
+  position: relative;
+}
+
+#absolute-positioning {
+  position: absolute;
+  background-color: green;
+  color: white;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  /* line-height: 100px; */
+  bottom: 100px;
+  left: 250px;
+  border-radius: 5px;
+  padding: 30px 10px;
+}

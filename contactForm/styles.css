@@ -1,0 +1,75 @@
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 600px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+dt {
+  margin-bottom: 5px;
+}
+
+dd {
+  margin: 0 0 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid #cecece;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.partial {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.one_half {
+  width: 50%;
+}
+
+.one_tenth {
+  width: 10%;
+}
+
+.four_tenths {
+  width: 40%;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.both {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.right {
+  padding-left: 5px;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+dl + dl {
+  margin-top: 0;
+}

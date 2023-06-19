@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <title>Document</title>
+  <!-- <style>
+    fieldset {
+      font-size: 1.2rem;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .styled-form input[type="text"],
+    .styled-form select {
+      border: 1px solid #06c;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font: normal 1rem Helvetica, Arial, sans-serif;
+      height: 40px;
+      padding: 5px 8px;
+    }
+
+    .top-to-bottom label,
+    .top-to-bottom input[type="text"] {
+      display: block;
+      width: 100%;
+    }
+
+    .styled-form label {
+      padding-top: 0.3333rem;
+    }
+
+    .top-to-bottom dl.partial {
+      display:inline-block;
+      box-sizing: border-box;
+      padding-right: 1rem;
+      vertical-align: top;
+    }
+
+    .top-to-bottom address {
+      width: 100%;
+    }
+
+    .top-to-bottom dl.city {
+      width: 50%;
+    }
+
+    .top-to-bottom dl.state {
+      width: 25%;
+    }
+
+    .top-to-bottom dl.zipcode {
+      width: 25%;
+      padding-right: 0;
+    }
+
+    .top-to-bottom dl dd {
+      width: auto;
+    }
+
+    .top-to-bottom fieldset,
+    .top-to-bottom dl,
+    .top-to-bototm dl dd,
+    .top-to-bottom dl dt {
+      font-size: 0;
+    }
+
+    .top-to-bottom dl label,
+    .top-to-bottom dl input[type="text"] {
+      font-size: 1rem;
+    }
+
+    .top-to-bottom select {
+      width: 100%;
+    }
+
+    
+
+    
+  </style> -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="#" class="styled-form top-to-bottom">
+    <fieldset>
+      <dl>
+        <dt>
+          <label for="name">Name</label>
+        </dt>
+        <dd>
+          <input type="text" id="name" name="name">
+        </dd>
+      </dl>
+
+      <dl>
+        <dt>
+          <label for="address1">Address</label>
+        </dt>
+        <dd>
+          <input type="text" id="address1">
+          <input type="text" id="address2">
+        </dd>
+      </dl>
+
+      <dl class="city partial">
+        <dt>
+          <label for="city">City</label>
+        </dt>
+        <dd>
+          <input type="text" id="city">
+        </dd>
+      </dl>
+
+      <dl class="state partial">
+        <dt>
+          <label for="state">State</label>
+        </dt>
+        <dd>
+          <!-- <input type="text" id="state"> -->
+          <select name="state" id="state">
+            <option value="AK">AK</option>
+            <option value="AL">AL</option>
+          </select>
+        </dd>
+      </dl>
+      
+      <dl class="zipcode partial">
+        <dt>
+          <label for="zipcode">Zip</label>
+        </dt>
+        <dd>
+          <input type="text" id="zipcode">
+        </dd>
+      </dl></fieldset>
+  </form>
+</body>
+</html>

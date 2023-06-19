@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <fieldset>
+    <form action="#" method="post">
+      <dl class="partial one_half left">
+        <dt>
+          <label for="first-name">First Name</label>
+        </dt>
+        <dd>
+          <input type="text" id="first-name" name="first-name">
+        </dd>
+      </dl><!--
+      --><dl class="partial one_half right">
+        <dt>
+          <label for="last-name">Last Name</label>
+        </dt>
+        <dd>
+          <input type="text" id="last-name" name="last-name">
+        </dd>
+      </dl>
+      <dl>
+        <dt>
+          <label for="email">Email</label>
+        </dt>
+        <dd>
+          <input type="email" id="email" name="email">
+        </dd>
+      </dl>
+      <dl class="partial one_half left">
+        <dt>
+          <label for="city">City</label>
+        </dt>
+        <dd>
+          <input type="text" id="city" name="city">
+        </dd>
+      </dl><!--
+      --><dl class="partial one_tenth both">
+        <dt>
+          <label for="state">State</label>
+        </dt>
+        <dd>
+          <select name="state" id="state">
+            <option>AK</option>
+            <option>AL</option>
+          </select>
+        </dd>
+      </dl><!--
+      --><dl class="partial four_tenths right">
+        <dt>
+          <label for="zipcode">Zip</label>
+        </dt>
+        <dd>
+          <input type="number" id="zipcode" name="zipcode" min="0" maximum="99999">
+        </dd>
+      </dl>
+      <p>Which of these colors do you like best?</p>
+      <ul>
+        <li>
+          <label><input type="radio" value="red" name="color" checked/>Red</label>
+        </li>
+        <li>
+          <label><input type="radio" value="orange" name="color" />Orange</label>
+        </li>
+        <li>
+          <label><input type="radio" value="yellow" name="color" />Yellow</label>
+        </li>
+        <li>
+          <label><input type="radio" value="green" name="color" />Green</label>
+        </li>
+        <li>
+          <label><input type="radio" value="blue" name="color" />Blue</label>
+        </li>
+        <li>
+          <label><input type="radio" value="indigo" name="color" />Indigo</label>
+        </li>
+        <li>
+          <label><input type="radio" value="violet" name="color" />Violet</label>
+        </li>
+      </ul>
+
+      <p>Which web technologies do you want to learn</p>
+      <ul>
+        <li>
+          <label><input type="checkbox" value="HTML" name="html" checked/>HTML</label>
+        </li>
+        <li>
+          <label><input type="checkbox" value="CSS" name="css" />CSS</label>
+        </li>
+        <li>
+          <label><input type="checkbox" value="Javascript" name="javascript" />Javascript</label>
+        </li>
+        <li>
+          <label><input type="checkbox" value="Ruby" name="ruby" />Ruby</label>
+        </li>
+        <li>
+          <label><input type="checkbox" value="Rails" name="rails" />Rails</label>
+        </li>
+      </ul>
+      <dl>
+        <dt>
+          <label for="comment">Comment box</label>
+        </dt>
+        <dd>
+          <textarea name="comment" id="comment" cols="80" rows="6"></textarea>
+        </dd>
+      </dl>
+
+      <input type="hidden" name="date" value="12-3-2020">
+      <input type="reset">
+      <input type="submit" value="send">
+    </form>
+  </fieldset>
+  <input type="text" name="profile" multiple />
+</body>
+</html>

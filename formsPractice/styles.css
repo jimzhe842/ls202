@@ -1,0 +1,43 @@
+.styled-form dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add to end of file */
+.top-to-bottom label,
+.top-to-bottom input[type="text"] {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+dl.partial {
+  display: inline-block;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.top-to-bottom dl.partial {
+  font-size: 0;
+}
+
+.top-to-bottom dl label,
+.top-to-bottom dl input[type="text"] {
+  font-size: 1rem;
+}
+
+dl.partial dd {
+  font-size: 0;
+}
+
+dl.city {
+  width: 50%;
+}
+
+dl.state {
+  width: 25%;
+}
+
+dl.zipcode {
+  width: 25%;
+}
